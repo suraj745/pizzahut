@@ -1,0 +1,20 @@
+@import "../../function.scss";
+
+.dropdown_container {
+  min-height: 5rem;
+
+  & > button {
+    font-size: clamp(1.4rem, 4vw, 1rem) !important;
+
+    min-height: 4rem;
+    width: 13rem;
+  }
+}
+
+.dropdown_list {
+  & :hover {
+    background-color: $red !important;
+    color: white !important;
+  }
+  font-size: clamp(1rem, 4vw, 1.6rem);
+}

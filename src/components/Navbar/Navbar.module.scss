@@ -1,0 +1,23 @@
+@import "../../function.scss";
+
+.outer {
+  min-height: 7rem;
+}
+
+.logo {
+  object-fit: cover;
+  width: 8rem;
+}
+
+.link {
+  @include flex(center, center);
+  gap: 0.5rem;
+  text-decoration: none;
+  color: black;
+  border-bottom: 0.3rem solid transparent;
+  font-size: clamp(1.7rem, 4vw, 1.2rem);
+
+  &:hover {
+    color: $red;
+  }
+}

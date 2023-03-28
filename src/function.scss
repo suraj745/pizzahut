@@ -1,5 +1,6 @@
 @import "/node_modules/include-media/dist/include-media";
 
+$red: #dc3545;
 @mixin flex($h, $v) {
   display: flex;
   justify-content: $h;

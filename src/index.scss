@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+.active {
+  color: red;
+
+  border-bottom-color: red;
+}
+
 html {
   font-size: 62.5%;
 
@@ -30,4 +36,8 @@ html {
       margin: 0;
     }
   }
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
